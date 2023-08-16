@@ -69,3 +69,128 @@ body {
     text-transform: uppercase;
     color: #163152;
 }
+
+.navigation-current {
+    cursor: default;
+}
+
+.mouse:hover {
+    opacity: 70%;
+  }
+
+.mouse:active {
+    opacity: 50%;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero-title {
+    font-style: italic;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin: 0;
+    margin: 39px 0 10px 100px;
+}
+
+.hero-title2 {
+    position: absolute;
+    left: 100px;
+    top: 80px;
+    font-style: italic;
+    font-size: 44px;
+    line-height: 60px;
+    text-transform: uppercase;
+    color: #fdfdff;
+    margin: 0;
+    
+}
+
+.hero-image {
+    display: block;
+}
+
+.membership {
+    position: absolute;
+    right: 20px;
+    top: 150px
+}
+
+.walks {
+    position: absolute;
+    right: 20px;
+    top: 300px
+}
+
+.see-more {
+    position: absolute;
+    bottom: 25px;
+    left: 100px;
+    display: flex;
+    border: 0;
+    background:none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.see-more:hover {
+    opacity: 70%;
+}
+
+.see-more:active {
+    opacity: 50%;
+}
+
+.see {
+    color: #fdfdff;
+    text-transform: uppercase;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.more {
+    margin-left: 20px;
+}
+
+.left {
+    position: absolute;
+    bottom: -3px;
+    right: 192px;
+    background:none;
+    border: 0;
+    cursor: pointer;
+}
+
+.left:hover {
+    opacity: 70%;
+}
+
+.left:active {
+    opacity: 50%;
+  }
+
+
+.right {
+    position: absolute;
+    bottom: -3px;
+    right: 94px;
+    background:none;
+    border: 0;
+    cursor: pointer;
+}
+
+.right:hover {
+    opacity: 70%;
+}
+
+.right:active {
+    opacity: 50%;
+  }
+
+.arrow {
+    position: absolute;
+    left: 123px;
+    top: 7px;
+}
