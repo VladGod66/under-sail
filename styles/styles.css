@@ -391,8 +391,20 @@ body {
     width: 310px;
     padding: 30px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
-    
-    
+}
+
+.rent-card-link {
+    text-decoration: none;
+    color: #163152;
+    cursor: pointer;
+}
+
+.rent-card-link:hover {
+    opacity: 70%;
+}
+
+.rent-card-link:active {
+    opacity: 50%;
 }
 
 .rent-card-title {
