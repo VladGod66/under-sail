@@ -112,16 +112,47 @@ body {
     display: block;
 }
 
-.membership {
+.membership-button {
     position: absolute;
-    right: 20px;
-    top: 150px
+    right: -25px;
+    top: 150px;
+    border: 0;
+    background: none;
+    cursor: pointer;
 }
 
-.walks {
+.membership-button:hover {
+    opacity: 70%;
+  }
+
+.membership-button:active {
+    opacity: 50%;
+}
+
+.membership, .walk {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    transform: rotate(90deg);
+    color: #163152;
+}
+
+.walks-button {
     position: absolute;
-    right: 20px;
-    top: 300px
+    right: -22px;
+    top: 300px;
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.walks-button:hover {
+    opacity: 70%;
+  }
+
+.walks-button:active {
+    opacity: 50%;
 }
 
 .see-more {
