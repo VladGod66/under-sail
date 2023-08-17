@@ -84,6 +84,7 @@ body {
 
 .hero {
     position: relative;
+    margin-bottom: 120px;
 }
 
 .hero-title {
@@ -119,6 +120,7 @@ body {
     border: 0;
     background: none;
     cursor: pointer;
+    padding: 0;
 }
 
 .membership-button:hover {
@@ -145,6 +147,7 @@ body {
     border: 0;
     background: none;
     cursor: pointer;
+    padding: 0;
 }
 
 .walks-button:hover {
@@ -225,3 +228,124 @@ body {
     left: 123px;
     top: 7px;
 }
+
+.blog-list {
+    margin: 0;
+    padding: 0;
+
+    list-style-type: none;
+    
+}
+
+.blog-item {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    margin-bottom: 120px;
+}
+
+.blog-item-wrapper {
+    min-width: 287px;
+    min-height: 169px;
+    padding: 46px 0;
+}
+
+.blog-item-title {
+    position: relative;
+    margin: 0;
+    margin-bottom: 35px;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.blog-item-title::after {
+    position: absolute;
+    left: 0;
+    bottom: -15px;
+    width: 130px;
+    height: 2px;
+    content: "";
+    background-color: #00C6BD;
+  }
+
+.blog-item-text {
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+
+.blog-dates {
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.revers {
+    padding: 0;
+    padding-right: 70px;
+    flex-direction: row-reverse;
+  }
+
+.text-right {
+    text-align: right;
+}
+
+.line-right::after {
+    position: absolute;
+    left: 205px;
+    bottom: -15px;
+    width: 130px;
+    height: 2px;
+    content: "";
+    background-color: #00C6BD;
+  }
+
+  .go-button-right {
+    position: absolute;
+    left: 430px;
+    top: 155px;
+    border: 0;
+    background: none;
+    cursor: pointer;
+  }
+
+  .arrow-right {
+    position: absolute;
+    left: 23px;
+    top: 23px;
+}
+
+.go-button-right:hover {
+    opacity: 70%;
+}
+
+.go-button-right:active {
+    opacity: 50%;
+}
+
+.go-button-left {
+    position: absolute;
+    left: 570px;
+    top: 155px;
+    border: 0;
+    background: none;
+    cursor: pointer;
+  }
+
+  .arrow-left {
+    position: absolute;
+    left: 23px;
+    top: 23px;
+}
+
+.go-button-left:hover {
+    opacity: 70%;
+}
+
+.go-button-left:active {
+    opacity: 50%;
+}
+
