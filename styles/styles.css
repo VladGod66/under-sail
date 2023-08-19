@@ -783,10 +783,10 @@ body {
     padding-top: 13px;
 }
 
-.share-link {
+.share-link-small {
     cursor: pointer;
 }
 
-.share-link:hover {
+.share-link-small:hover {
     opacity: 70%;
 }
