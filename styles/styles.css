@@ -976,4 +976,13 @@ body {
     color: #ffffff;
     background-color: #00c6bd;
     border: none;
+    cursor: pointer;
+}
+
+.send__button:hover {
+    opacity: 70%;
+}
+
+.send__button:active {
+    opacity: 50%;
 }
