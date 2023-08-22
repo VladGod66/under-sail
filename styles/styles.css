@@ -1109,6 +1109,7 @@ body {
     margin-bottom: 15px;
     font-weight: 600;
     text-transform: uppercase;
+    cursor: default;
 }
 
 .list-item {
@@ -1121,6 +1122,7 @@ body {
 }
 
 .item-link:hover {
+    font-weight: 600;
     opacity: 70%;
 }
 
