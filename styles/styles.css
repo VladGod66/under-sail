@@ -49,6 +49,15 @@ body {
     max-width: 1170px;
     min-height: 108px;
     align-items: center;
+    margin-bottom: 20px;
+}
+
+.navigation-logo:hover {
+    opacity: 70%;
+}
+
+.navigation-logo:active {
+    opacity: 50%;
 }
 
 .navigation-list {
@@ -1133,3 +1142,46 @@ body {
 .link-text {
     color: #283c54;
 }
+
+.breadcrumbs {
+    padding-top: 19px;
+    margin-bottom: 60px;
+}
+
+.breadcrumbs-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1170px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.breadcrumbs-link {
+    text-decoration: none;
+    font-weight: 600;
+    color: #163152;
+    padding-bottom: 20px;
+}
+
+.breadcrumbs-item {
+    position: relative;
+    padding-right: 28px;
+}
+
+.breadcrumbs-item:last-child {
+    opacity: 50%;
+}
+
+.breadcrumbs-item:not(:last-child)::after {
+    position: absolute;
+    right: 9px;
+    bottom: 5px;
+    width: 8px;
+    height: 8px;
+    content: "";
+    background-image: url("../images/breadcrumbs.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+   }
+  
