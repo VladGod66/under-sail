@@ -1169,6 +1169,14 @@ body {
     padding-right: 28px;
 }
 
+.breadcrumbs-item:not(:last-child) .breadcrumbs-link:hover {
+    opacity: 70%;
+  }
+  
+  .breadcrumbs-item:not(:last-child) .breadcrumbs-link:active {
+    opacity: 50%;
+  }
+
 .breadcrumbs-item:last-child {
     opacity: 50%;
 }
