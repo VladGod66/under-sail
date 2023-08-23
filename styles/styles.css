@@ -1191,5 +1191,41 @@ body {
     background-image: url("../images/breadcrumbs.svg");
     background-repeat: no-repeat;
     background-position: center;
-   }
+}
   
+.bigrase-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.header-data {
+    margin: 0;
+    margin-bottom: 18px;
+}
+.header-title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 34px;
+    line-height: normal;
+    font-weight: 600;
+}
+
+.header-author {
+    margin-bottom: 35px;
+}
+
+.header-author-title {
+    font-weight: 600;
+}
+
+.header-author-text {
+    padding-right: 20px;
+}
+
+.header-text {
+    margin: 0;
+    margin-top: 10px;
+    font-size: 18px;
+    line-height: 140%;
+}
