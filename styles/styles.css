@@ -568,20 +568,14 @@ body {
   }
 
 .services-type1 {
-    position: relative;
+    
     grid-column: 2/3;
     grid-row: 1/2; 
     margin-left: 100px;
 }
 
-.circle {
+.services-icon {
     margin-bottom: 20px;
-}
-
-.icon {
-    position: absolute;
-    left: 10px;
-    top: 17px;
 }
 
 .services-item {
@@ -607,6 +601,7 @@ body {
     grid-column: 2/3;
     grid-row: 2/3;
     margin-left: 100px;
+    padding-top: 22px;
 }
 
 .services-type4 {
@@ -614,6 +609,7 @@ body {
     grid-column: 3/4;
     grid-row: 2/3; 
     margin-left: 56px;
+    padding-top: 22px;
 }
 
 .news {
@@ -1228,4 +1224,129 @@ body {
     margin-top: 10px;
     font-size: 18px;
     line-height: 140%;
+}
+
+.bigrase-begin {
+    display: grid;
+    grid-template-columns: 680px 200px;
+    gap: 120px;
+}
+
+.block-text {
+    margin: 0;
+    margin-bottom: 35px;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.block-bigtext {
+    margin: 0;
+    margin-bottom: 35px;
+    font-size: 22px;
+    line-height: 140%;
+}
+
+.question-text {
+    margin: 0;
+    margin-bottom: 15px;
+    font-weight: 16px;
+    line-height: 140%;
+    font-style: italic;
+}
+
+.first-letter {
+    font-size: 76px;
+    line-height: 60px;
+   	float: left;
+	margin-top: 2px;
+}
+
+.blue-text {
+    color: #00C6BD;
+}
+
+.blue-background {
+    background-color: #d9fcfb;
+}
+
+.bigrase-articles {
+    position: relative;
+    margin: 0;
+    font-size: 16px;
+}
+
+.bigrase-articles::before {
+    position: absolute;
+    left: 0;
+    top: 2px;
+    width: 200px;
+    height: 2px;
+    content: "";
+    background-color: #00C6BD;
+}
+
+.articles-title {
+    margin: 0;
+    margin-bottom: 45px;
+    padding-top: 30px;
+    font-size: 16px;
+}
+
+.articles-list {
+    margin: 0;
+    padding: 0;
+}
+
+.articles-item {
+    display: flex;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.articles-item::before {
+    position: absolute;
+    content: "";
+    top: -20px;
+    width: 200px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.articles-item:last-child::after {
+    position: absolute;
+    content: "";
+    bottom: -20px;
+    width: 200px;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.articles-name {
+    margin: 0;
+    padding-left: 15px;
+    align-self: center;
+    font-size: 12px;
+    line-height: 120%;
+    font-weight: 600;
+}
+
+.bigrase-founders {
+    margin-bottom: 50px;
+}
+
+.fonders-image {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.founders-text {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 50%;
+}
+
+.bigrase-middle {
+    display: grid;
+    grid-template-columns: 550px 550px;
+    gap: 70px;
+    margin-bottom: 15px;
 }
