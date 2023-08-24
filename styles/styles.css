@@ -1459,6 +1459,14 @@ body {
     cursor: pointer;
 }
 
+.button-hash:hover {
+    opacity: 70%;
+}
+
+.button-hash:active {
+    opacity: 50%;
+}
+
 .footer-hash::before {
     position: absolute;
     content: "";
