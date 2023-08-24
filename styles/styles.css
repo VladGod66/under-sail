@@ -1302,6 +1302,8 @@ body {
     display: flex;
     position: relative;
     margin-bottom: 40px;
+    text-decoration: none;
+    cursor: default;
 }
 
 .articles-item::before {
@@ -1327,6 +1329,17 @@ body {
     font-size: 12px;
     line-height: 120%;
     font-weight: 600;
+    color: #163152;
+}
+
+.articles-name:hover {
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.articles-name:active {
+    cursor: pointer;
+    opacity: 50%;
 }
 
 .bigrase-founders {
@@ -1369,4 +1382,44 @@ body {
 
 .before-list {
     margin-bottom: 8px;
+}
+
+.advice {
+    margin-bottom: 50px;
+}
+
+.advice-wrapper {
+    position: relative;
+    width: 1056px;
+    height: 264px;
+    margin-left: 60px;
+    background-color: #f5f5fa;
+}
+
+.advice-wrapper::before {
+    position: absolute;
+    content: "";
+    width: 56px;
+    height: 52px;
+    top: 40px;
+    left: -28px;
+    content: "";
+    background-image: url("../images/quotes.svg");
+    
+    
+}
+
+.advice-text {
+    width: 750px;
+    padding-top: 60px;
+    padding-left: 130px;
+    font-size: 24px;
+    line-height: 140%;
+    font-style: italic;
+}
+
+.advice-author {
+    margin: 0;
+    padding-left: 130px;
+    font-size: 16px;
 }
