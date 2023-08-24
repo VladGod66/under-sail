@@ -1226,10 +1226,11 @@ body {
     line-height: 140%;
 }
 
-.bigrase-begin {
+.bigrase {
     display: grid;
     grid-template-columns: 680px 200px;
     gap: 120px;
+    margin-bottom: 15px;
 }
 
 .block-text {
@@ -1349,4 +1350,23 @@ body {
     grid-template-columns: 550px 550px;
     gap: 70px;
     margin-bottom: 15px;
+}
+
+.last-part {
+    padding-top: 20px;
+}
+
+.models-list {
+    margin: 0;
+    margin-bottom: 23px;
+    padding-left: 50px;
+    list-style-image: url("../images/star_marker.png");
+}
+
+.models-item {
+    margin-bottom: 8px;
+}
+
+.before-list {
+    margin-bottom: 8px;
 }
