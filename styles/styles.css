@@ -1226,8 +1226,8 @@ body {
 
 .bigrase {
     display: grid;
-    grid-template-columns: 680px 200px;
-    gap: 120px;
+    grid-template-columns: 700px 200px;
+    gap: 100px;
     margin-bottom: 15px;
 }
 
@@ -1261,7 +1261,16 @@ body {
 }
 
 .blue-text {
+    text-decoration: none;
     color: #00C6BD;
+}
+
+.blue-text:hover {
+    opacity: 70%;
+}
+
+.blue-text:active {
+    opacity: 30%;
 }
 
 .blue-background {
@@ -1441,7 +1450,7 @@ body {
 
 .footer-hash {
     position: relative;
-    margin-bottom: 38px;
+    margin-bottom: 39px;
 }
 
 .button-hash {
