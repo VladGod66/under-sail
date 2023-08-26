@@ -80,20 +80,25 @@ body {
 }
 
 .navigation-current {
+    padding: 20px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #163152;
     cursor: default;
 }
 
-.mouse:hover {
+.navigation-link:hover {
     opacity: 70%;
 }
 
-.mouse:active {
+.navigation-link:active {
     opacity: 50%;
 }
 
 .hero {
     position: relative;
     margin-bottom: 120px;
+    padding-top: 19px;
 }
 
 .hero-title {
@@ -102,7 +107,8 @@ body {
     line-height: 60px;
     text-transform: uppercase;
     margin: 0;
-    margin: 39px 0 10px 100px;
+    padding: 0 100px;
+    margin-bottom: 10px;
 }
 
 .hero-title2 {
@@ -244,7 +250,6 @@ body {
 .blog-list {
     margin: 0;
     padding: 0;
-
     list-style-type: none;
     
 }
@@ -393,6 +398,7 @@ body {
     padding: 0;
     list-style-type: none;
 }
+
 .rent-card {
     display: flex;
     flex-direction: column;
@@ -473,10 +479,9 @@ body {
     height: 2px;
     content: "";
     background-color: #00C6BD;
-  }
+}
 
 .video-container {
-    
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -499,7 +504,6 @@ body {
 
 .play-button {
     position: absolute;
-    
     left: 550px;
     top: 243px;
     z-index: 2;
@@ -528,7 +532,7 @@ body {
     display: grid;
     grid-template-columns: 430px 344px 325px;
     grid-template-rows: 182px 177px;
-    margin-left: 70px;
+    padding-left: 70px;
 }
 
 .services-header {
@@ -549,7 +553,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     margin: 0;
-
 }
 
 .services-title::after {
@@ -565,13 +568,6 @@ body {
 .services-img {
     grid-column: 1/2;
     grid-row: 2/3;
-  }
-
-.services-type1 {
-    
-    grid-column: 2/3;
-    grid-row: 1/2; 
-    margin-left: 100px;
 }
 
 .services-icon {
@@ -589,18 +585,24 @@ body {
     
 }
 
+.services-type1 {
+    grid-column: 2/3;
+    grid-row: 1/2; 
+    padding-left: 100px;
+}
+
 .services-type2 {
     position: relative;
     grid-column: 3/4;
     grid-row: 1/2; 
-    margin-left: 56px;
+    padding-left: 56px;
 }
 
 .services-type3 {
     position: relative;
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-left: 100px;
+    padding-left: 100px;
     padding-top: 22px;
 }
 
@@ -608,7 +610,7 @@ body {
     position: relative;
     grid-column: 3/4;
     grid-row: 2/3; 
-    margin-left: 56px;
+    padding-left: 56px;
     padding-top: 22px;
 }
 
@@ -620,11 +622,10 @@ body {
 .news-title {
     position: relative;
     margin: 0;
-    margin-bottom: 105px;
+    margin-bottom: 55px;
     text-align: center;
     font-size: 24px;
     line-height: 34px;
-
 }
 
 .news-title::after {
@@ -879,7 +880,7 @@ body {
     grid-template-columns: 430px 640px;
     grid-template-rows: 151px 386px;
     gap: 30px;
-    margin-left: 70px;
+    padding-left: 70px;
 }
 
 .form-header {
@@ -900,7 +901,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     margin: 0;
-
 }
 
 .form-title::after {
@@ -921,7 +921,7 @@ body {
 .form-img {
     grid-column: 2/3;
     grid-row: 1/3;
-    margin-left: 40px;
+    padding-left: 40px;
   }
 
 .fieldset-list {
@@ -1138,7 +1138,6 @@ body {
 }
 
 .breadcrumbs {
-    padding-top: 19px;
     margin-bottom: 60px;
 }
 
@@ -1155,7 +1154,7 @@ body {
     text-decoration: none;
     font-weight: 600;
     color: #163152;
-    padding-bottom: 20px;
+    padding: 5px 0;
 }
 
 .breadcrumbs-item {
@@ -1190,7 +1189,7 @@ body {
 .bigrase-header {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .header-data {
@@ -1219,7 +1218,7 @@ body {
 
 .header-text {
     margin: 0;
-    margin-top: 10px;
+    margin-bottom: 10px;
     font-size: 18px;
     line-height: 140%;
 }
@@ -1399,7 +1398,7 @@ body {
     position: relative;
     width: 1056px;
     height: 264px;
-    margin-left: 60px;
+    margin-left: 70px;
     background-color: #f5f5fa;
 }
 
@@ -1412,12 +1411,12 @@ body {
     left: -28px;
     content: "";
     background-image: url("../images/quotes.svg");
-    
-    
 }
 
 .advice-text {
     width: 750px;
+    margin: 0;
+    margin-bottom: 20px;
     padding-top: 60px;
     padding-left: 130px;
     font-size: 24px;
@@ -1427,7 +1426,7 @@ body {
 
 .advice-author {
     margin: 0;
-    padding-left: 130px;
+    padding: 0 130px;
     font-size: 16px;
 }
 
@@ -1516,6 +1515,7 @@ body {
 
 .other-news-title {
     position: relative;
+    margin: 0;
     margin-bottom: 55px;
     font-size: 24px;
 }
