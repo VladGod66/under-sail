@@ -508,12 +508,6 @@ body {
   cursor: pointer;
 }
 
-.play {
-  position: absolute;
-  left: 25px;
-  top: 17px;
-}
-
 .play-button:hover {
   opacity: 70%;
 }
