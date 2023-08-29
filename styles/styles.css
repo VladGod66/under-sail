@@ -140,7 +140,7 @@ body {
 .membership-button {
   position: absolute;
   right: -25px;
-  top: 150px;
+  top: 210px;
   transform: rotate(90deg);
   border: 0;
   background: none;
@@ -167,7 +167,7 @@ body {
 .walks-button {
   position: absolute;
   right: -22px;
-  top: 300px;
+  top: 320px;
   transform: rotate(90deg);
   border: 0;
   background: none;
@@ -216,7 +216,7 @@ body {
 
 .left {
   position: absolute;
-  bottom: -3px;
+  bottom: -4px;
   right: 192px;
   background:none;
   border: 0;
@@ -233,7 +233,7 @@ body {
 
 .right {
   position: absolute;
-  bottom: -3px;
+  bottom: -4px;
   right: 94px;
   background:none;
   border: 0;
