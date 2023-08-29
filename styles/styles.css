@@ -745,21 +745,17 @@ body {
   opacity: 50%;
 }
 
-.card-small-wrapper{
-  width: 350px;
-}
-
 .card-title-small {
   margin: 0;
   margin-bottom: 12px;
-  padding-left: 20px;
+  padding: 0 20px;
   font-size: 16px;
 }
 
 .card-text-small {
   margin: 0;
   margin-bottom: 20px;
-  padding-left: 20px;
+  padding: 0 20px;
 }
 
 .card-note-small {
