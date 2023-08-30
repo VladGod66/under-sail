@@ -513,7 +513,7 @@ body {
 .play-button {
   position: absolute;
   left: 550px;
-  top: 243px;
+  top: 244px;
   z-index: 2;
   cursor: pointer;
   border: none;
