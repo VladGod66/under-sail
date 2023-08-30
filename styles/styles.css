@@ -689,6 +689,17 @@ body {
   margin-bottom: 20px;
   padding: 0 40px;
   font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #163152;
+}
+
+.card-title:hover {
+  opacity: 70%;
+}
+
+.card-title:active {
+  opacity: 50%;
 }
 
 .card-text {
@@ -765,6 +776,18 @@ body {
   margin-bottom: 12px;
   padding: 0 20px;
   font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #163152;
+  cursor: pointer;
+}
+
+.card-title-small:hover {
+  opacity: 70%;
+}
+
+.card-title-small:active {
+  opacity: 50%;
 }
 
 .card-text-small {
