@@ -344,12 +344,6 @@ body {
   cursor: pointer;
 }
 
-.arrow-right {
-  position: absolute;
-  left: 23px;
-  top: 23px;
-}
-
 .go-button-right:hover {
   opacity: 70%;
 }
@@ -365,12 +359,6 @@ body {
   border: 0;
   background: none;
   cursor: pointer;
-}
-
-.arrow-left {
-  position: absolute;
-  left: 23px;
-  top: 23px;
 }
 
 .go-button-left:hover {
