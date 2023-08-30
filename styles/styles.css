@@ -104,6 +104,14 @@ body {
   padding: 36px 14px;
 }
 
+.account-link:hover {
+  opacity: 70%;
+}
+
+.account-link:active {
+  opacity: 50%;
+}
+
 .hero {
   position: relative;
   margin-bottom: 120px;
