@@ -1369,6 +1369,16 @@ body {
   border-bottom: 2px solid #e5e5e5;
 }
 
+.articles-item:hover {
+  cursor: pointer;
+  opacity: 70%;
+}
+
+.articles-item:active {
+  cursor: pointer;
+  opacity: 50%;
+}
+
 .articles-name {
   margin: 0;
   padding-left: 15px;
@@ -1377,16 +1387,6 @@ body {
   line-height: 120%;
   font-weight: 600;
   color: #163152;
-}
-
-.articles-name:hover {
-  cursor: pointer;
-  opacity: 70%;
-}
-
-.articles-name:active {
-  cursor: pointer;
-  opacity: 50%;
 }
 
 .bigrase-founders {
