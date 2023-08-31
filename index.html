@@ -185,16 +185,32 @@
 
         <section class="video">
           <h2 class="video-title" id="video-unchor">Почувствуйте атмосферу</h2>
-          <div class="video-container">
-            <img src="images/video_1.jpg" width="400" height="265" alt="Ретрокатер стоит в живописном заливе.">
-            <img src="images/video_3.jpg" width="400" height="265" alt="Нос парусной яхты на фоне воды.">
-          </div>
-          <div class="active-video">
-            <img src="images/video_2.jpg" width="630" height="359" alt="Одномачтовая парусная яхта идёт на фоне далёкого гористого побережья.">
-          </div>
-          <button class="play-button" type="button">
-            <img src="images/play-button.svg" width="60" height="60" alt="Кнопка просмотра видео.">
-          </button>
+          <ul class="video-list">
+            <li class="video-item">
+              <video class="video-play" poster="images/video_1.jpg" width="400" height="265">
+                <source src="video-1.mp4" type="video/mp4">
+              </video>
+              <button class="play-button" type="button">
+                <img src="images/play-button.svg" width="60" height="60" alt="Кнопка просмотра видео.">
+              </button>
+            </li>
+            <li class="video-item-active">
+              <video class="video-active" poster="images/video_2.jpg" width="630" height="359">
+                <source src="video-2.mp4" type="video/mp4">
+              </video>
+              <button class="play-button play-button-active" type="button">
+                <span class="visually-hidden">Кнопка просмотра видео.</span>
+              </button>
+            </li>
+            <li class="video-item">
+              <video class="video-play" poster="images/video_3.jpg"  width="400" height="265">
+                <source src="video-3.mp4" type="video/mp4">
+              </video>
+              <button class="play-button" type="button">
+               <img src="images/play-button.svg" width="60" height="60" alt="Кнопка просмотра видео.">
+              </button>
+            </li>
+          </ul>
         </section>
 
         <section class="services">
