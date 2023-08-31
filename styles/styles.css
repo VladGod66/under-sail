@@ -1343,6 +1343,12 @@ body {
   line-height: 140%;
 }
 
+.header-text-last {
+  margin: 0;
+  font-size: 18px;
+  line-height: 140%;
+}
+
 .bigrase {
   display: grid;
   grid-template-columns: 700px 200px;
