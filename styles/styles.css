@@ -1029,18 +1029,9 @@ body {
   padding-left: 40px;
   }
 
-.fieldset-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-.fieldset-item {
-  margin-bottom: 20px;
-}
-
 .fieldset-text {
   margin: 0;
+  padding-top: 20px;
   margin-bottom: 10px;
   font-size: 16px;
   font-weight: 600;
@@ -1097,11 +1088,11 @@ body {
   cursor: pointer;
 }
 
-.send__button:hover {
+.send-button:hover {
   opacity: 70%;
 }
 
-.send__button:active {
+.send-button:active {
   opacity: 60%;
 }
 
