@@ -1184,15 +1184,24 @@ body {
   opacity: 50%;
 }
 
-.footer-logo {
-  margin-bottom: 20px;
+.footer-confidentiality {
+ font-size: 10px;
+  cursor: pointer;
+}
+
+.footer-confidentiality:hover {
+  opacity: 70%;
+}
+
+.footer-confidentiality:active {
+  opacity: 50%;
 }
 
 .footer-text {
   margin: 0;
+  padding-top: 10px;
   font-size: 10px;
-  line-height: 20px;
-  color: #283c54;
+  cursor: default;
 }
 
 .list-items {
@@ -1204,7 +1213,7 @@ body {
 .first-items {
   width: 87px;
   padding: 0;
-  padding-left: 100px;
+  padding-left: 121px;
 }
 
 .second-items {
@@ -1235,6 +1244,7 @@ body {
 .item-link {
   cursor: pointer;
   text-decoration: none;
+  color: #283c54;
 }
 
 .item-link:hover {
@@ -1244,10 +1254,6 @@ body {
 
 .item-link:active {
   opacity: 50%;
-}
-
-.link-text {
-  color: #283c54;
 }
 
 .breadcrumbs {
