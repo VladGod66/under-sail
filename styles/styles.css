@@ -531,10 +531,9 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   background-color: #fdfdff;
-  cursor: pointer;
   border-radius: 50%;
   border: none;
-  padding: 0;
+  cursor: pointer;
 }
 
 .play-button-active {
