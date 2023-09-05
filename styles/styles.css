@@ -7,7 +7,6 @@
 }
 
 body {
-
   height: 100%;
   margin: 0 auto;
   font-family: "Noto Sans", "Arial", sans-serif;
@@ -15,15 +14,6 @@ body {
   line-height: 18px;
   background-color: #fdfdff;
   color: #163152;
-}
-
-.page-container {
-  display: flex;
-  flex-direction: column;
-  width: 1170px;
-  min-height: 100%;
-  background-color: #fdfdff;
-  margin: 0 auto;
 }
 
 .visually-hidden {
@@ -35,6 +25,12 @@ body {
   border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
+}
+
+.page-container {
+  width: 1170px;
+  min-height: 100%;
+  margin: 0 auto;
 }
 
 .navigation {
@@ -49,7 +45,8 @@ body {
   margin-bottom: 20px;
 }
 
-.navigation-logo:hover {
+.navigation-logo:hover,
+.navigation-logo:focus {
   opacity: 70%;
 }
 
@@ -77,6 +74,7 @@ body {
   padding: 10px 16px;
   text-decoration: none;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: #163152;
 }
 
@@ -84,11 +82,13 @@ body {
   padding: 10px 16px;
   text-decoration: none;
   text-transform: uppercase;
+  letter-spacing: 0.03em;
   color: #163152;
   cursor: default;
 }
 
-.navigation-link:hover {
+.navigation-link:hover,
+.navigation-link:focus {
   opacity: 70%;
 }
 
@@ -100,7 +100,8 @@ body {
   padding: 36px 14px;
 }
 
-.account-link:hover {
+.account-link:hover,
+.account-link:focus {
   opacity: 70%;
 }
 
@@ -134,7 +135,6 @@ body {
   text-transform: uppercase;
   color: #fdfdff;
   margin: 0;
-
 }
 
 .hero-image {
@@ -152,7 +152,8 @@ body {
   padding: 0;
 }
 
-.membership-button:hover {
+.membership-button:hover,
+.membership-button:focus {
   opacity: 70%;
   }
 
@@ -165,6 +166,7 @@ body {
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
   color: #163152;
 }
 
@@ -179,7 +181,8 @@ body {
   padding: 0;
 }
 
-.walks-button:hover {
+.walks-button:hover,
+.walks-button:focus {
   opacity: 70%;
 }
 
@@ -198,7 +201,8 @@ body {
   padding: 0;
 }
 
-.see-more:hover {
+.see-more:hover,
+.see-more:focus {
   opacity: 70%;
 }
 
@@ -227,7 +231,8 @@ body {
   cursor: pointer;
 }
 
-.left:hover {
+.left:hover,
+.left:focus {
   opacity: 70%;
 }
 
@@ -244,7 +249,8 @@ body {
   cursor: pointer;
 }
 
-.right:hover {
+.right:hover,
+.right:focus {
   opacity: 70%;
 }
 
@@ -1088,7 +1094,8 @@ body {
   cursor: pointer;
 }
 
-.send-button:hover {
+.send-button:hover,
+.send-button:focus {
   opacity: 70%;
 }
 
@@ -1149,11 +1156,12 @@ body {
 
 .social-link {
   height: 40px;
-  padding-left: 15px;
+  padding: 0 8px;
   cursor: pointer;
 }
 
-.social-link:hover {
+.social-link:hover,
+.social-link:focus {
   opacity: 70%;
 }
 
@@ -1176,7 +1184,8 @@ body {
   text-decoration: none;
 }
 
-.footer-title:hover {
+.footer-title:hover,
+.footer-title:focus {
   opacity: 70%;
 }
 
@@ -1185,11 +1194,14 @@ body {
 }
 
 .footer-confidentiality {
- font-size: 10px;
+  font-size: 10px;
+  text-decoration: none;
+  color: #283c54;
   cursor: pointer;
 }
 
-.footer-confidentiality:hover {
+.footer-confidentiality:hover,
+.footer-confidentiality:focus{
   opacity: 70%;
 }
 
@@ -1247,7 +1259,8 @@ body {
   color: #283c54;
 }
 
-.item-link:hover {
+.item-link:hover,
+.item-link:focus {
   font-weight: 600;
   opacity: 70%;
 }
@@ -1281,7 +1294,8 @@ body {
   padding-right: 28px;
 }
 
-.breadcrumbs-item:not(:last-child) .breadcrumbs-link:hover {
+.breadcrumbs-item:not(:last-child) .breadcrumbs-link:hover,
+.breadcrumbs-item:not(:last-child) .breadcrumbs-link:focus {
   opacity: 70%;
 }
 
@@ -1454,7 +1468,8 @@ body {
   border-bottom: 2px solid #e5e5e5;
 }
 
-.articles-item:hover {
+.articles-item:hover,
+.articles-item:focus {
   cursor: pointer;
   opacity: 70%;
 }
@@ -1472,6 +1487,7 @@ body {
   line-height: 120%;
   font-weight: 600;
   color: #163152;
+  text-decoration: none;
 }
 
 .bigrase-founders {
@@ -1591,7 +1607,8 @@ body {
   cursor: pointer;
 }
 
-.button-hash:hover {
+.button-hash:hover,
+.button-hash:focus {
   opacity: 70%;
 }
 
@@ -1688,6 +1705,18 @@ body {
   margin-bottom: 12px;
   padding: 0 15px;
   font-size: 16px;
+  font-weight: 600;
+  color: #163152;
+  text-decoration: none;
+}
+
+.other-card-title:hover,
+.other-card-title:focus{
+  opacity: 70%;
+}
+
+.other-card-title:active {
+  opacity: 50%;
 }
 
 .other-card-text {
@@ -1711,6 +1740,17 @@ body {
   padding: 0 10px;
   font-size: 12px;
   font-weight: 600;
+  color: #163152;
+  text-decoration: none;
+}
+
+.other-author-name:hover,
+.other-author-name:focus {
+  opacity: 70%;
+}
+
+.other-author-name:active {
+  opacity: 50%;
 }
 
 .other-card-date {

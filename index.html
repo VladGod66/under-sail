@@ -188,7 +188,7 @@
           <ul class="video-list">
             <li class="video-item">
               <video class="video-play" poster="images/video_1.jpg" width="400" height="265">
-                <source src="video-1.mp4" type="video/mp4">
+                <source src="#" type="video/mp4">
               </video>
               <button class="play-button" type="button">
                 <span class="visually-hidden">Кнопка просмотра видео.</span>
@@ -196,7 +196,7 @@
             </li>
             <li class="video-item-active">
               <video class="video-active" poster="images/video_2.jpg" width="630" height="359">
-                <source src="video-2.mp4" type="video/mp4">
+                <source src="#" type="video/mp4">
               </video>
               <button class="play-button play-button-active" type="button">
                 <span class="visually-hidden">Кнопка просмотра видео.</span>
@@ -204,7 +204,7 @@
             </li>
             <li class="video-item">
               <video class="video-play" poster="images/video_3.jpg"  width="400" height="265">
-                <source src="video-3.mp4" type="video/mp4">
+                <source src="#" type="video/mp4">
               </video>
               <button class="play-button" type="button">
                 <span class="visually-hidden">Кнопка просмотра видео.</span>
@@ -274,7 +274,7 @@
               </p>
               <div class="card-note-small">
                 <img src="images/author_2.jpg" width="37" height="37" alt="Фотопортрет выбритого мужчины с русыми волосами.">
-                <span class="author-name-small">Денис Иванов</span>
+                <a class="author-name-small" href="#news-unchor">Денис Иванов</a>
                 <span class="card-date-small">15.06.2020</span>
                 <a class="share-link-small" href="#news-unchor">
                   <span class="visually-hidden">Посмотреть новость подробно.</span>
@@ -292,7 +292,7 @@
               </p>
               <div class="card-note-small">
                 <img src="images/author_2.jpg" width="37" height="37" alt="Фотопортрет выбритого мужчины с русыми волосами.">
-                <span class="author-name-small">Денис Иванов</span>
+                <a class="author-name-small"href="#news-unchor" >Денис Иванов</a>
                 <span class="card-date-small">10.06.2020</span>
                 <a class="share-link-small" href="#news-unchor">
                   <span class="visually-hidden">Посмотреть новость подробно.</span>
@@ -361,15 +361,15 @@
             <form class="application-form" action="#" method="post">
               <label>
                 <p class="fieldset-text">Имя</p>
-                <input class="field" type="text" placeholder="Сергей">
+                <input class="field" type="text" name="name" placeholder="Сергей" autocomplete="on">
               </label>
               <label>
                 <p class="fieldset-text">Телефон</p>
-                <input class="field" type="tel" placeholder="+7 999 555 66 77">
+                <input class="field" type="tel" name="tel" placeholder="+7 999 555 66 77" autocomplete="on">
               </label>
               <label>
                 <p class="fieldset-text">E-mail</p>
-                <input class="field" type="email" placeholder="Example@mail.com">
+                <input class="field" type="email" name="mail" placeholder="Example@mail.com" autocomplete="on">
               </label>
               <div class="checkbox-wrapper">
                 <label class="fieldset-checkbox">
@@ -429,7 +429,7 @@
               <img src="images/footer-logo.png" width="100" height="106" alt="Логотип яхт-клуба, парусная лодка, под ней надпись Yacht club.">
             </a>
             <p></p>
-            <a class="footer-confidentiality">Политика конфидициальности</a>
+            <a class="footer-confidentiality" href="#footer-unchor">Политика конфидициальности</a>
             <p class="footer-text">Яхтклуб ©2020 Все права защищены</p>
           </div>
           <ul class="list-items first-items">
