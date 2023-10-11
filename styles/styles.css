@@ -1551,7 +1551,6 @@ body {
   height: 52px;
   top: 40px;
   left: -28px;
-  content: "";
   background-image: url("../images/quotes.svg");
 }
 
