@@ -45,6 +45,10 @@ body {
   margin-bottom: 20px;
 }
 
+.navigation-logo {
+  transition: opacity 0.5s ease-in-out;
+}
+
 .navigation-logo:hover,
 .navigation-logo:focus {
   opacity: 70%;
@@ -60,7 +64,6 @@ body {
   flex-wrap: wrap;
   list-style-type: none;
   min-width: 338px;
-
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -77,6 +80,7 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.03em;
   color: #163152;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .navigation-current {
@@ -100,11 +104,13 @@ body {
 
 .account-link {
   padding: 36px 14px;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .account-link:hover,
 .account-link:focus {
   opacity: 70%;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .account-link:active {
@@ -157,7 +163,7 @@ body {
 .membership-button:hover,
 .membership-button:focus {
   opacity: 70%;
-  }
+}
 
 .membership-button:active {
   opacity: 50%;
@@ -201,11 +207,13 @@ body {
   background:none;
   cursor: pointer;
   padding: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .see-more:hover,
 .see-more:focus {
-  opacity: 70%;
+  opacity: 50%;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .see-more:active {
@@ -231,11 +239,13 @@ body {
   background:none;
   border: 0;
   cursor: pointer;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .left:hover,
 .left:focus {
   opacity: 70%;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .left:active {
@@ -249,11 +259,13 @@ body {
   background:none;
   border: 0;
   cursor: pointer;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .right:hover,
 .right:focus {
   opacity: 70%;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .right:active {
@@ -359,11 +371,11 @@ body {
 }
 
 .go-button-right:hover {
-  opacity: 70%;
+  opacity: 50%;
 }
 
 .go-button-right:active {
-  opacity: 50%;
+  opacity: 100%;
 }
 
 .go-button-left {
@@ -378,11 +390,11 @@ body {
 }
 
 .go-button-left:hover {
-  opacity: 70%;
+  opacity: 50%;
 }
 
 .go-button-left:active {
-  opacity: 50%;
+  opacity: 100%;
 }
 
 .rent {
@@ -430,10 +442,12 @@ body {
   text-decoration: none;
   color: #163152;
   cursor: pointer;
+  transition: transform 0.5s ease-in-out;
 }
 
 .rent-card-link:hover {
-  opacity: 70%;
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
 }
 
 .rent-card-link:active {
@@ -546,10 +560,12 @@ body {
 
 .play-button-active {
   display: block;
+  transition: all 0.3s ease-in-out;
 }
 
 .play-button-active:hover {
   opacity: 70%;
+  transition: all 0.3s ease-in-out;
 }
 
 .play-button-active:active {
@@ -725,14 +741,17 @@ body {
   font-weight: 600;
   text-decoration: none;
   color: #163152;
+  transition: all 0.3s ease-in-out;
 }
 
 .card-title:hover {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .card-title:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .card-text {
@@ -760,14 +779,17 @@ body {
   text-decoration: none;
   color: #163152;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .author-name:hover {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .author-name:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .card-date {
@@ -789,14 +811,17 @@ body {
   background-image: url("../images/share_icon.png");
   background-repeat: no-repeat;
   background-position: center;
+  transition: all 0.3s ease-in-out;
 }
 
 .share-link:hover {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .share-link:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .news-card-small {
@@ -830,14 +855,17 @@ body {
   text-decoration: none;
   color: #163152;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .card-title-small:hover {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .card-title-small:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .card-text-small {
@@ -865,14 +893,17 @@ body {
   text-decoration: none;
   color: #163152;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .author-name-small:hover {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .author-name-small:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .card-date-small {
@@ -896,15 +927,17 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
-
+  transition: all 0.3s ease-in-out;
 }
 
 .share-link-small:hover {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .share-link-small:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .calendar {
@@ -1056,10 +1089,13 @@ body {
   font-size: 16px;
   font-weight: 600;
   opacity: 50%;
+  transition: all 0.3 ease-in-out;
 }
 
-.field:hover {
+.field:hover,
+.field:focus {
   background-color: #f5f5f7;
+  transition: all 0.3 ease-in-out;
 }
 
 .checkbox-wrapper {
@@ -1094,15 +1130,18 @@ body {
   background-color: #00c6bd;
   border: none;
   cursor: pointer;
+  transition: all 0.5 ease-in-out;
 }
 
 .send-button:hover,
 .send-button:focus {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.5 ease-in-out;
 }
 
 .send-button:active {
-  opacity: 60%;
+  opacity: 100%;
+  transition: none;
 }
 
 .contacts {
