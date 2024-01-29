@@ -46,17 +46,18 @@ body {
 }
 
 .navigation-logo {
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .navigation-logo:hover,
 .navigation-logo:focus {
-  opacity: 70%;
-  transition: opacity 0.5s ease-in-out;
+  opacity: 50%;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .navigation-logo:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .navigation-list {
@@ -94,27 +95,29 @@ body {
 
 .navigation-link:hover,
 .navigation-link:focus {
-  opacity: 70%;
-  transition: opacity 0.5s ease-in-out;
+  opacity: 50%;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .navigation-link:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .account-link {
   padding: 36px 14px;
-  transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .account-link:hover,
 .account-link:focus {
-  opacity: 70%;
-  transition: opacity 0.5s ease-in-out;
+  opacity: 50%;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .account-link:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .hero {
@@ -1089,22 +1092,27 @@ body {
   font-size: 16px;
   font-weight: 600;
   opacity: 50%;
-  transition: all 0.3 ease-in-out;
 }
 
 .field:hover,
 .field:focus {
   background-color: #f5f5f7;
-  transition: all 0.3 ease-in-out;
-}
-
-.checkbox-wrapper {
-  margin-bottom: 20px;
-  padding-top: 10px;
 }
 
 .fieldset-checkbox {
   display: flex;
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+
+.fieldset-checkbox:hover,
+.fieldset-checkbox:focus {
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.fieldset-checkbox:active {
+  font-weight: 400;
 }
 
 .fieldset-input {
@@ -1118,6 +1126,7 @@ body {
   padding-top: 3px;
   padding-left: 10px;
   font-size: 12px;
+
 }
 
 .send-button {
@@ -1130,13 +1139,13 @@ body {
   background-color: #00c6bd;
   border: none;
   cursor: pointer;
-  transition: all 0.5 ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .send-button:hover,
 .send-button:focus {
   opacity: 50%;
-  transition: all 0.5 ease-in-out;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .send-button:active {
@@ -1199,15 +1208,18 @@ body {
   height: 40px;
   padding: 0 8px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .social-link:hover,
 .social-link:focus {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .social-link:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .page-footer {
@@ -1223,15 +1235,18 @@ body {
 .footer-title {
   cursor: pointer;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .footer-title:hover,
 .footer-title:focus {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .footer-title:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .footer-confidentiality {
@@ -1239,15 +1254,18 @@ body {
   text-decoration: none;
   color: #283c54;
   cursor: pointer;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .footer-confidentiality:hover,
 .footer-confidentiality:focus{
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .footer-confidentiality:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .footer-text {
@@ -1303,11 +1321,13 @@ body {
 .item-link:hover,
 .item-link:focus {
   font-weight: 600;
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .item-link:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .breadcrumbs {
@@ -1337,11 +1357,13 @@ body {
 
 .breadcrumbs-item:not(:last-child) .breadcrumbs-link:hover,
 .breadcrumbs-item:not(:last-child) .breadcrumbs-link:focus {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .breadcrumbs-item:not(:last-child) .breadcrumbs-link:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
   }
 
 .breadcrumbs-item:last-child {
@@ -1491,6 +1513,7 @@ body {
   margin-bottom: 40px;
   text-decoration: none;
   cursor: default;
+  transition: all 0.3s ease-in-out;
 }
 
 .articles-item::before {
@@ -1499,6 +1522,7 @@ body {
   top: -20px;
   width: 200px;
   border-bottom: 2px solid #e5e5e5;
+  cursor: default;
 }
 
 .articles-item:last-child::after {
@@ -1507,17 +1531,20 @@ body {
   bottom: -20px;
   width: 200px;
   border-bottom: 2px solid #e5e5e5;
+  cursor: default;
 }
 
 .articles-item:hover,
 .articles-item:focus {
   cursor: pointer;
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .articles-item:active {
   cursor: pointer;
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .articles-name {
@@ -1645,15 +1672,18 @@ body {
   background-color: #ffffff;
   border: #00C6BD 1px solid;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .button-hash:hover,
 .button-hash:focus {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .button-hash:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .footer-hash::before {
@@ -1669,7 +1699,7 @@ body {
   position: absolute;
   content: "";
   left: 0;
-  bottom: -20px;
+  bottom: -21px;
   width: 1170px;
   border-bottom: 2px solid #e5e5e5;
 }
@@ -1748,15 +1778,18 @@ body {
   font-weight: 600;
   color: #163152;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .other-card-title:hover,
 .other-card-title:focus{
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .other-card-title:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .other-card-text {
@@ -1782,15 +1815,18 @@ body {
   font-weight: 600;
   color: #163152;
   text-decoration: none;
+  transition: all 0.3s ease-in-out;
 }
 
 .other-author-name:hover,
 .other-author-name:focus {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .other-author-name:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
 
 .other-card-date {
@@ -1808,12 +1844,15 @@ body {
 
 .other-share-link {
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
 }
 
 .other-share-link:hover {
-  opacity: 70%;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
 }
 
 .other-share-link:active {
-  opacity: 50%;
+  opacity: 100%;
+  transition: none;
 }
