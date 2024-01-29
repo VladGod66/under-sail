@@ -268,7 +268,7 @@
                 <img class="news-photo-small" src="images/yaht.jpg" width="370" height="130" alt="Крупная моторная яхта стоит у причала.">
                 <figcaption class="image-note-small">Участник выставки - яхта Golsling 3.15</figcaption>
               </figure>
-              <a class="card-title-small" href="news-unchor">Выставка Sochi Boat Show</a>
+              <a class="card-title-small" href="#news-unchor">Выставка Sochi Boat Show</a>
               <p class="card-text-small">
                 Выставка катеров и яхт Sochi Boat Show состоится с 19 по 29 июля 2020 года в нашем яхт-клубе. В программе будет ...
               </p>
@@ -359,25 +359,17 @@
               </p>
             </div>
             <form class="application-form" action="#" method="post">
-              <label>
-                <p class="fieldset-text">Имя</p>
-                <input class="field" type="text" name="name" placeholder="Сергей" autocomplete="on">
+              <p class="fieldset-text">Имя</p>
+              <input class="field" type="text" name="name" placeholder="Сергей" autocomplete="on">
+              <p class="fieldset-text">Телефон</p>
+              <input class="field" type="tel" name="tel" placeholder="+7 999 555 66 77" autocomplete="on">
+              <p class="fieldset-text">E-mail</p>
+              <input class="field" type="email" name="mail" placeholder="Example@mail.com" autocomplete="on">
+              <label class="fieldset-checkbox">
+                <input class="fieldset-input" type="checkbox" name="agreement">
+                <span class="fieldset-span-checkbox">Я даю согласие на обработку персональных данных</span>
               </label>
-              <label>
-                <p class="fieldset-text">Телефон</p>
-                <input class="field" type="tel" name="tel" placeholder="+7 999 555 66 77" autocomplete="on">
-              </label>
-              <label>
-                <p class="fieldset-text">E-mail</p>
-                <input class="field" type="email" name="mail" placeholder="Example@mail.com" autocomplete="on">
-              </label>
-              <div class="checkbox-wrapper">
-                <label class="fieldset-checkbox">
-                  <input class="fieldset-input" type="checkbox" name="agreement">
-                  <span class="fieldset-span-checkbox">Я даю согласие на обработку персональных данных</span>
-                </label>
-              </div>
-            <button class="send-button" type="submit">Отправить</button>
+              <button class="send-button" type="submit">Отправить</button>
             </form>
             <img class="form-img" src="images/marina.jpg" width="600" height="567" alt="Марина со множеством небольших парусных яхт.">
           </div>
